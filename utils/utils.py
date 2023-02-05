@@ -3,6 +3,7 @@ from nltk.lm import MLE
 from nltk.corpus import brown
 import nltk
 import dill
+from nltk.corpus import webtext
 
 
 def generate_trained_model(n, tokenized_text):
@@ -28,13 +29,17 @@ def load_model(path: str):
 
 
 def predictions(model: nltk.lm.MLE, n, text: str):
+    if n == 1:
+        return model.generate(num_words=10)
+
     sentence = list(pad_both_ends(text, n=n))
     results = []
-    start = sentence.index('*') - n if n<sentence.index('*') else 0
+    start = sentence.index('*') - n + 1
     end = sentence.index('*')
+    # results.append(*(model.counts[sentence[start:end]][:10]))
+
     for item in model.counts[sentence[start:end]]:
         results.append(item)
-
     return results
 
 
@@ -61,27 +66,25 @@ def success_at_k(correct_word: str, predictions_list: list):
         success_at_5 = 1
         success_at_10 = 1
         return success_at_1, success_at_5, success_at_10
-    for word in predictions_list[1:5]:
-        if word == correct_word:
-            success_at_5 = 1
-            success_at_10 = 1
-            return success_at_1, success_at_5, success_at_10
-    for word in predictions_list[5:]:
-        if word == correct_word:
-            success_at_10 = 1
-            return success_at_1, success_at_5, success_at_10
+    if correct_word in predictions_list[1:5]:
+        success_at_5 = 1
+        success_at_10 = 1
+        return success_at_1, success_at_5, success_at_10
+    if correct_word in predictions_list[5:10]:
+        success_at_10 = 1
+        return success_at_1, success_at_5, success_at_10
 
     return success_at_1, success_at_5, success_at_10
 
 
 if __name__ == '__main__':
-    # nltk.download('brown')
-    print(brown.sents(categories='news')[1])
-    # b_news_sents = [[y.lower() for y in x] for x in brown.sents(categories='news')]
+    # nltk.download('webtext')
+    print(webtext.sents()[1])
+    # b_news_sents = [[y.lower() for y in x] for x in webtext.sents()]
     # my_model = generate_trained_model(n=3, tokenized_text=b_news_sents)
     # save_model('./mdl.pkl', my_model)
     model = load_model('./mdl.pkl')
     results = []
-    for item in model.counts[['<s>']]:
-        print(item)
+    for item in model.counts[['i', 'love']]:
+        print(item, model.score(item, ['i', 'love']))
     print(results)
