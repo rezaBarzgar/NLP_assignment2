@@ -6,9 +6,9 @@ import dill
 from nltk.corpus import webtext
 
 
-def generate_trained_model(n, tokenized_text):
+def generate_trained_model(n, tokenized_text, lang_model=None):
     train_data, padded_sents = padded_everygram_pipeline(n, tokenized_text)
-    model = MLE(n)
+    model = lang_model if lang_model else MLE(n)
     model.fit(train_data, padded_sents)
     return model
 
@@ -59,22 +59,29 @@ def success_at_k(correct_word: str, predictions_list: list):
     success_at_1 = 0
     success_at_5 = 0
     success_at_10 = 0
+    success_at_all = 0
     if len(predictions_list) == 0:
-        return success_at_1, success_at_5, success_at_10
+        return success_at_1, success_at_5, success_at_10, success_at_all
     if predictions_list[0] == correct_word:
         success_at_1 = 1
         success_at_5 = 1
         success_at_10 = 1
-        return success_at_1, success_at_5, success_at_10
+        success_at_all = 1
+        return success_at_1, success_at_5, success_at_10, success_at_all
     if correct_word in predictions_list[1:5]:
         success_at_5 = 1
         success_at_10 = 1
-        return success_at_1, success_at_5, success_at_10
+        success_at_all = 1
+        return success_at_1, success_at_5, success_at_10, success_at_all
     if correct_word in predictions_list[5:10]:
         success_at_10 = 1
-        return success_at_1, success_at_5, success_at_10
+        success_at_all = 1
+        return success_at_1, success_at_5, success_at_10, success_at_all
+    if correct_word in predictions_list[10:]:
+        success_at_all = 1
+        return success_at_1, success_at_5, success_at_10, success_at_all
 
-    return success_at_1, success_at_5, success_at_10
+    return success_at_1, success_at_5, success_at_10, success_at_all
 
 
 if __name__ == '__main__':
