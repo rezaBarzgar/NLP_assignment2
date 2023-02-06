@@ -1,0 +1,450 @@
+1ary model on news categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.005208333333333333
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.005208333333333333
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government categories
+success_at_1 average: 0.0
+success_at_10 average: 0.005208333333333333
+success_at_5 average: 0.0
+success_at_all average: 0.005208333333333333
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor categories
+success_at_1 average: 0.0
+success_at_10 average: 0.005208333333333333
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.005208333333333333
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned categories
+success_at_1 average: 0.0
+success_at_10 average: 0.005208333333333333
+success_at_5 average: 0.0
+success_at_all average: 0.005208333333333333
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion categories
+success_at_1 average: 0.0
+success_at_10 average: 0.005208333333333333
+success_at_5 average: 0.0
+success_at_all average: 0.005208333333333333
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews categories
+success_at_1 average: 0.0
+success_at_10 average: 0.0
+success_at_5 average: 0.0
+success_at_all average: 0.0
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance categories
+success_at_1 average: 0.0
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.010416666666666666
+----------------------------------------
+1ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance_science_fiction categories
+success_at_1 average: 0.0
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.010416666666666666
+----------------------------------------
+10ary model on news categories
+success_at_1 average: 0.0
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.078125
+----------------------------------------
+10ary model on news_adventure categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.09375
+----------------------------------------
+10ary model on news_adventure_belles_lettres categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.109375
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.125
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.13020833333333334
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.140625
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.15625
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.16145833333333334
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.171875
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.015625
+success_at_all average: 0.171875
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.18229166666666666
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.19270833333333334
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.19791666666666666
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.015625
+success_at_all average: 0.19791666666666666
+----------------------------------------
+10ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance_science_fiction categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.015625
+success_at_all average: 0.19791666666666666
+----------------------------------------
+2ary model on news categories
+success_at_1 average: 0.0
+success_at_10 average: 0.015625
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.23958333333333334
+----------------------------------------
+2ary model on news_adventure categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.3229166666666667
+----------------------------------------
+2ary model on news_adventure_belles_lettres categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.3958333333333333
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.4114583333333333
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.4322916666666667
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.4427083333333333
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.46875
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.5
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.515625
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.5208333333333334
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.546875
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.546875
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.5520833333333334
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.5729166666666666
+----------------------------------------
+2ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance_science_fiction categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.015625
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.5729166666666666
+----------------------------------------
+3ary model on news categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.09895833333333333
+----------------------------------------
+3ary model on news_adventure categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.11979166666666667
+----------------------------------------
+3ary model on news_adventure_belles_lettres categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.13541666666666666
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.15625
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.16145833333333334
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.03125
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.171875
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.03125
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.18229166666666666
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.03125
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.1875
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.036458333333333336
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.203125
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.036458333333333336
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.203125
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.041666666666666664
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.22916666666666666
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.041666666666666664
+success_at_5 average: 0.026041666666666668
+success_at_all average: 0.23958333333333334
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.041666666666666664
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.25
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.03125
+success_at_5 average: 0.015625
+success_at_all average: 0.2552083333333333
+----------------------------------------
+3ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance_science_fiction categories
+success_at_1 average: 0.015625
+success_at_10 average: 0.03125
+success_at_5 average: 0.015625
+success_at_all average: 0.2552083333333333
+----------------------------------------
+5ary model on news categories
+success_at_1 average: 0.0
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.005208333333333333
+success_at_all average: 0.078125
+----------------------------------------
+5ary model on news_adventure categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.010416666666666666
+success_at_5 average: 0.010416666666666666
+success_at_all average: 0.09375
+----------------------------------------
+5ary model on news_adventure_belles_lettres categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.109375
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.125
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.020833333333333332
+success_at_5 average: 0.015625
+success_at_all average: 0.13020833333333334
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.140625
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.15625
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.16145833333333334
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned categories
+success_at_1 average: 0.010416666666666666
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.171875
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.015625
+success_at_all average: 0.171875
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.18229166666666666
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.19270833333333334
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.03125
+success_at_5 average: 0.020833333333333332
+success_at_all average: 0.19791666666666666
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.015625
+success_at_all average: 0.19791666666666666
+----------------------------------------
+5ary model on news_adventure_belles_lettres_editorial_fiction_government_hobbies_humor_learned_lore_mystery_religion_reviews_romance_science_fiction categories
+success_at_1 average: 0.005208333333333333
+success_at_10 average: 0.026041666666666668
+success_at_5 average: 0.015625
+success_at_all average: 0.19791666666666666
+----------------------------------------

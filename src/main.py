@@ -57,8 +57,8 @@ def main():
                 sys.stdout = file
                 print(f'{number}ary model on {name} categories')
                 for measure in sorted(list(results[list(results.keys())[0]].keys())):
-                    print(measure, 'average:', round(pytrec_eval.compute_aggregated_measure(
-                        measure, [query_measures[measure] for query_measures in results.values()]), 2))
+                    print(measure, 'average:', pytrec_eval.compute_aggregated_measure(
+                        measure, [query_measures[measure] for query_measures in results.values()]))
                 print('-' * 40)
                 sys.stdout = original_stdout
 
