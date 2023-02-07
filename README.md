@@ -21,3 +21,19 @@ for runing the project and reproducing the results you can run the following cod
 
     cd /src
     python run main.py
+
+
+## Results
+
+
+The results are shown as the following plots 
+
+Horizental axis: 0 -> corpus is only news categories of brown, 14 -> corpus is the whole brown corpus
+
+vertical: Success score 
+
+![alt text](https://github.com/rezaBarzgar/NLP_assignment2/blob/master/data/1-gram.png)
+![alt text](https://github.com/rezaBarzgar/NLP_assignment2/blob/master/data/2-gram.png)
+![alt text](https://github.com/rezaBarzgar/NLP_assignment2/blob/master/data/3-gram.png)
+![alt text](https://github.com/rezaBarzgar/NLP_assignment2/blob/master/data/5-gram.png)
+![alt text](https://github.com/rezaBarzgar/NLP_assignment2/blob/master/data/10-gram.png)
