@@ -1,9 +1,7 @@
-import json
 import os
 import sys
 
 import pytrec_eval
-from nltk.corpus import *
 from utils.utils import *
 
 
